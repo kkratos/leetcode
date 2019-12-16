@@ -3,7 +3,7 @@ def reverse_string(string):
         return string
     return string[-1] + reverse_string(string[-1])
 
-def reverse_word(string):
+def reverse_words(string):
     curr_word = ' '
     results = ''
 
@@ -18,3 +18,6 @@ def reverse_word(string):
 
     results += reverse_string(curr_word)
     return results
+
+assert reverse_words('moo cow bark dog') == 'oom woc krab god'
+
