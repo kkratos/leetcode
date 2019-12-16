@@ -1,3 +1,10 @@
+'''
+Note: I didn't come up with the solution.
+This elegant solution was posted by Chiphuyen on github
+'''
+
+
+
 def reverse_string(string):
     if len(string) <= 1:
         return string
